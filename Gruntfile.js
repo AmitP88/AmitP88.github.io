@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
+grunt.loadNpmTasks('grunt-contrib-cssmin');
+
 grunt.initConfig({
-	pkg: grunt.file.readJSON('package.json')
 	cssmin: {
 		target: {
 			files: [{
@@ -12,10 +13,8 @@ grunt.initConfig({
 				}]
 			}
 		}
-
-grunt.loadNpmTask('grunt-contrib-cssmin');
-grunt.registerTask('default', ['cssmin']);
-
 });
+
+grunt.registerTask('default', ['cssmin']);
 
 };
