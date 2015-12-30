@@ -19,6 +19,23 @@ Some useful tips to help you get started:
   ```
 
 1. Open a browser and visit localhost:8080
+//////////////////////////////////////////////////////////////////////////////////////////
+Web Optimizations Performed:
+
+1. used document.getElementById() Web API on line 427
+2. used document.getElementsByClassName() Web API on line 454
+3. moved variables newwidth and dx outside the loop on line 455
+4. created local variable saving document.getElementsByClassName('randomPizzaContainer')
+   outside the loop on line 456
+5. declared pizzasDiv variable outside the loop on line 473
+6. used document.getElementsByClassName() Web API on line 505
+7. created a local  variable saving document.body.scrollTop / 1250; outside
+   the loop on line 507
+8. declared elem variable outside of loop on line 537
+9. used document.getElementById() Web API on line 544 and moved it outside the loop
+10. included transform: translateZ(0); declaration in style.css file
+//////////////////////////////////////////////////////////////////////////////////////////
+
 1. Download and install [ngrok](https://ngrok.com/) to make your local server accessible remotely.
 
   ``` bash
@@ -32,7 +49,7 @@ Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
 
