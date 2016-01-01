@@ -459,6 +459,8 @@ var resizePizzas = function(size) {
       }
     };
 
+    changePizzaSizes(size);
+
 
   // User Timing API is awesome
   window.performance.mark("mark_end_resize");
