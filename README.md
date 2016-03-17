@@ -89,6 +89,7 @@ Feeling uninspired by the portfolio? Here's a list of cool portfolios I found af
 * <a href="http://www.roxannecook.com/">http://www.roxannecook.com/</a>
 * <a href="http://www.84colors.com/portfolio.html">http://www.84colors.com/portfolio.html</a>
 * 
+
 _Note: Since this project is completed, to view simply download the repository as a zipfile and extract.
 After extracting the zipfile, you can open up the index.html in your web browser. Since this is a website optimization project,
 you can also copy and paste the website link (of the index.html file) into https://developers.google.com/speed/pagespeed/insights/
