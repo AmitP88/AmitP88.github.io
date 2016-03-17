@@ -94,4 +94,4 @@ _Note: Since this project is completed, to view simply download the repository a
 After extracting the zipfile, you can open up the index.html in your web browser. Since this is a website optimization project,
 you can also copy and paste the website link (of the index.html file) into https://developers.google.com/speed/pagespeed/insights/
 and click the Analyze button to view the loading speed information. You can also click on the links in the index.html page and
-use https://developers.google.com/speed/pagespeed/insights/ to analyze those webpage speeds as well.
+use https://developers.google.com/speed/pagespeed/insights/ to analyze those webpage speeds as well._
